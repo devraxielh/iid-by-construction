@@ -1,0 +1,7 @@
+{
+  "prior_max_min_baseline_rate_ratio": 2.663912474213044,
+  "concept_share_clients_pm25_sign_flipped": 0.30799999999999994,
+  "concept_between_client_sd_pm25_slope": 0.15060859575798216,
+  "covariate_client_mean_shift_norm_sd_units": 1.0175891821178726,
+  "covariate_client_mean_shift_norm_h0_sd_units": 0.14033214324348062
+}

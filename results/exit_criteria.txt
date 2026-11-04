@@ -1,0 +1,9 @@
+tables_exist: True
+figures_exist: True
+png_dpi_ge_600: True
+dpi: {'fig_01_data_distribution_or_manifold': 600, 'fig_02_main_performance_comparison': 600, 'fig_03_ablation_and_sensitivity': 600, 'fig_04_explainability_shap_or_latent': 600, 'fig_05_error_calibration_or_case_study': 600, 'fig_06_critical_difference': 600, 'fig_07_mlp_robustness': 600}
+no_titles: True
+title_offenders: []
+scaler_fit_on_train_only: True
+reproducible: True
+non_identical_files: []

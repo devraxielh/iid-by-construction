@@ -1,0 +1,14 @@
+\begin{tabular}{lccccc}
+\toprule
+Method & Real null target$^{a}$ $\downarrow$ & IID control ($h=0$) $\downarrow$ & Covariate ($h=1$) $\downarrow$ & Prior ($h=1$) $\downarrow$ & Concept ($h=1$) $\downarrow$ \\
+\midrule
+Centralized & \textbf{0.014 $\pm$ 0.012} & \underline{0.005 $\pm$ 0.006} & \underline{0.007 $\pm$ 0.006} & 1.278 $\pm$ 0.069 & 2.062 $\pm$ 0.520 \\
+Centralized-FE & 0.016 $\pm$ 0.016 & 0.007 $\pm$ 0.008 & 0.008 $\pm$ 0.007 & \textbf{0.008 $\pm$ 0.007} & 2.053 $\pm$ 0.513 \\
+Local & 0.035 $\pm$ 0.030 & 0.023 $\pm$ 0.015 & 0.026 $\pm$ 0.011 & 0.026 $\pm$ 0.014 & \textbf{0.032 $\pm$ 0.017} \\
+FedAvg & \underline{0.014 $\pm$ 0.012} & 0.005 $\pm$ 0.007 & 0.008 $\pm$ 0.007 & 1.285 $\pm$ 0.068 & 2.077 $\pm$ 0.531 \\
+FedProx & 0.015 $\pm$ 0.012 & \textbf{0.005 $\pm$ 0.006} & \textbf{0.006 $\pm$ 0.006} & 1.276 $\pm$ 0.069 & 2.065 $\pm$ 0.519 \\
+SCAFFOLD & \textbf{0.014 $\pm$ 0.012} & \underline{0.005 $\pm$ 0.006} & \underline{0.007 $\pm$ 0.006} & 1.278 $\pm$ 0.069 & 2.062 $\pm$ 0.520 \\
+FedRep & 0.016 $\pm$ 0.016 & 0.007 $\pm$ 0.008 & 0.008 $\pm$ 0.007 & \underline{0.009 $\pm$ 0.007} & 2.041 $\pm$ 0.509 \\
+Ditto & 0.015 $\pm$ 0.013 & 0.005 $\pm$ 0.007 & 0.007 $\pm$ 0.006 & 0.029 $\pm$ 0.014 & \underline{0.032 $\pm$ 0.014} \\
+\bottomrule
+\end{tabular}

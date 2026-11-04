@@ -1,0 +1,45 @@
+{
+  "clients": [
+    "Central",
+    "East",
+    "North",
+    "South",
+    "West"
+  ],
+  "train_blocks": [
+    0,
+    1,
+    2
+  ],
+  "test_blocks": [
+    3,
+    4
+  ],
+  "features": [
+    "pm2_5",
+    "pm10",
+    "no2",
+    "o3",
+    "temperature",
+    "humidity",
+    "wind_speed",
+    "mobility_index",
+    "lockdown_status",
+    "mask_usage_rate"
+  ],
+  "n_train_per_client": {
+    "East": 465,
+    "South": 444,
+    "Central": 430,
+    "North": 429,
+    "West": 422
+  },
+  "n_test_per_client": {
+    "South": 175,
+    "East": 170,
+    "West": 161,
+    "North": 157,
+    "Central": 147
+  },
+  "scaler": "fit on pooled training covariates of each scenario (federated moments); never on test"
+}

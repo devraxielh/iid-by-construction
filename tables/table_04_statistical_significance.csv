@@ -1,0 +1,32 @@
+family,test,comparison,scenario,n_blocks,statistic,p_value,p_holm,effect_size,effect_type,interpretation
+H1a,Wilcoxon + TOST,FedAvg vs Centralized,IID control,50,626.0,0.916185835362695,0.916185835362695,-0.01803921568627451,rank-biserial r,equivalent (TOST)
+H1a,Wilcoxon + TOST,FedProx vs Centralized,IID control,50,503.0,0.1976349682926415,0.5929049048779245,-0.21098039215686273,rank-biserial r,equivalent (TOST)
+H1a,Wilcoxon + TOST,SCAFFOLD vs Centralized,IID control,50,126.0,0.3228539650652159,0.6457079301304318,0.2246153846153846,rank-biserial r,equivalent (TOST)
+H1b,Page trend,FedAvg - Centralized gap vs h,Covariate shift,50,2290.0,0.12894951764616974,0.12894951764616974,0.1217700082572001,Spearman rho,no trend
+H1b,Page trend,FedAvg excess deviance vs h,Covariate shift,50,2318.0,0.02721928171928349,0.05443856343856698,0.12408234507315595,Spearman rho,no trend
+H1b,Page trend,FedAvg - Centralized gap vs h,Prior (baseline) shift,50,2343.0,0.004263755832180215,0.01705502332872086,0.18827908582799782,Spearman rho,increasing trend
+H1b,Page trend,FedAvg excess deviance vs h,Prior (baseline) shift,50,2750.0,1.0442437918812723e-45,6.265462751287633e-45,0.9798037355745097,Spearman rho,increasing trend
+H1b,Page trend,FedAvg - Centralized gap vs h,Concept shift,50,2341.0,0.005028421751296175,0.01705502332872086,0.1748753707253385,Spearman rho,increasing trend
+H1b,Page trend,FedAvg excess deviance vs h,Concept shift,50,2750.0,1.0442437918812723e-45,6.265462751287633e-45,0.9736113759656789,Spearman rho,increasing trend
+H2,Wilcoxon,FedProx vs FedAvg,Covariate shift h=1,50,326.0,0.0021981232450851707,0.017584985960681365,-0.4886274509803922,rank-biserial r,better than FedAvg
+H2,Wilcoxon,SCAFFOLD vs FedAvg,Covariate shift h=1,50,391.0,0.016637745581261854,0.06655098232504741,-0.38666666666666666,rank-biserial r,n.s.
+H2,Wilcoxon,FedRep vs FedAvg,Covariate shift h=1,50,475.0,0.11848533640686121,0.3554560092205836,0.2549019607843137,rank-biserial r,n.s.
+H2,Wilcoxon,Ditto vs FedAvg,Covariate shift h=1,50,606.0,0.766732668436843,0.766732668436843,-0.04941176470588235,rank-biserial r,n.s.
+H2,Wilcoxon,Local vs FedAvg,Covariate shift h=1,50,3.0,8.881784197001252e-15,1.0658141036401503e-13,0.9952941176470588,rank-biserial r,worse than FedAvg
+H2,Wilcoxon,Centralized-FE vs FedAvg,Covariate shift h=1,50,511.0,0.2260100302518655,0.452020060503731,0.1984313725490196,rank-biserial r,n.s.
+H2,Wilcoxon,FedProx vs FedAvg,Prior (baseline) shift h=1,50,156.0,5.951474850718341e-07,6.546622335790175e-06,-0.7552941176470588,rank-biserial r,better than FedAvg
+H2,Wilcoxon,SCAFFOLD vs FedAvg,Prior (baseline) shift h=1,50,346.0,0.004316904154682888,0.025901424928097327,-0.45725490196078433,rank-biserial r,better than FedAvg
+H2,Wilcoxon,FedRep vs FedAvg,Prior (baseline) shift h=1,50,0.0,1.7763568394002505e-15,3.197442310920451e-14,-1.0,rank-biserial r,better than FedAvg
+H2,Wilcoxon,Ditto vs FedAvg,Prior (baseline) shift h=1,50,0.0,1.7763568394002505e-15,3.197442310920451e-14,-1.0,rank-biserial r,better than FedAvg
+H2,Wilcoxon,Local vs FedAvg,Prior (baseline) shift h=1,50,0.0,1.7763568394002505e-15,3.197442310920451e-14,-1.0,rank-biserial r,better than FedAvg
+H2,Wilcoxon,Centralized-FE vs FedAvg,Prior (baseline) shift h=1,50,0.0,1.7763568394002505e-15,3.197442310920451e-14,-1.0,rank-biserial r,better than FedAvg
+H2,Wilcoxon,FedProx vs FedAvg,Concept shift h=1,50,334.0,0.002896310240339872,0.020274171682379105,-0.476078431372549,rank-biserial r,better than FedAvg
+H2,Wilcoxon,SCAFFOLD vs FedAvg,Concept shift h=1,50,362.0,0.007158095833210254,0.03579047916605127,-0.432156862745098,rank-biserial r,better than FedAvg
+H2,Wilcoxon,FedRep vs FedAvg,Concept shift h=1,50,164.0,9.979758868183808e-07,9.979758868183808e-06,-0.7427450980392157,rank-biserial r,better than FedAvg
+H2,Wilcoxon,Ditto vs FedAvg,Concept shift h=1,50,0.0,1.7763568394002505e-15,3.197442310920451e-14,-1.0,rank-biserial r,better than FedAvg
+H2,Wilcoxon,Local vs FedAvg,Concept shift h=1,50,0.0,1.7763568394002505e-15,3.197442310920451e-14,-1.0,rank-biserial r,better than FedAvg
+H2,Wilcoxon,Centralized-FE vs FedAvg,Concept shift h=1,50,300.0,0.0008475708983652908,0.007628138085287617,-0.5294117647058824,rank-biserial r,better than FedAvg
+Friedman,Friedman,8 methods,all unique scenarios,650,465.5515312131906,2.0286489882462157e-96,8.114595952984863e-96,0.10231901784905287,Kendall W,methods differ
+Friedman,Friedman,8 methods,Covariate shift h=1,50,125.6387959866221,5.115505599297191e-24,5.115505599297191e-24,0.358967988533206,Kendall W,methods differ
+Friedman,Friedman,8 methods,Prior (baseline) shift h=1,50,301.55664670658695,2.813777614068558e-61,8.441332842205674e-61,0.861590419161677,Kendall W,methods differ
+Friedman,Friedman,8 methods,Concept shift h=1,50,220.9942459841766,4.058428092274106e-44,8.116856184548212e-44,0.6314121313833617,Kendall W,methods differ
