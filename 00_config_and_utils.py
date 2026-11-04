@@ -1,8 +1,3 @@
-"""00_config_and_utils.py — global config, Q1 plotting style and shared utilities.
-
-Paper: "IID by Construction: Using a Verified-Null Multi-Region Health Dataset to
-Isolate the Cost of Non-IID Heterogeneity in Federated Hospital-Demand Models".
-"""
 from __future__ import annotations
 
 import os

@@ -3,7 +3,6 @@
 Code, results and manuscript sources for the paper
 
 > **IID by Construction: Using a Verified-Null Multi-Region Health Dataset to Isolate the Cost of Non-IID Heterogeneity in Federated Hospital-Demand Models**
-> Rodrigo Garcia, Adrian Doria, Jessica Polo — Universidad del Sinú
 
 ## Overview
 
