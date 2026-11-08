@@ -53,7 +53,7 @@ def replicate_parameters(r: int, k: int, p: int) -> dict:
     rng = np.random.default_rng(U.SEED * 1000 + r)
     beta = rng.normal(0.0, U.OTHER_EFFECT_SD, p)
     beta[U.FEATURES.index(U.FOCAL_EXPOSURE)] = U.FOCAL_EFFECT
-    offsets = np.linspace(-1.0, 1.0, k) * np.sqrt(3.0 / 2.0)    # unit-variance, zero-mean
+    offsets = np.linspace(-1.0, 1.0, k) * np.sqrt(3.0 / 2.0)    # zero-mean; values 0, +-0.61, +-1.22 (variance 0.75 for k = 5)
     offsets = rng.permutation(offsets)
     D = rng.normal(0.0, 1.0, (k, p))
     D -= D.mean(axis=0, keepdims=True)                            # average slope = beta
