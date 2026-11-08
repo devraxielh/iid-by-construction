@@ -1,4 +1,5 @@
 # IID by Construction
+
 # Python 3.13.9 (Anaconda); pinned versions used to produce all results
 numpy==2.3.5
 scipy==1.16.3
